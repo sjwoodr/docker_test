@@ -1,0 +1,11 @@
+dockertest:
+  image: sjwoodr/docker_test
+  ports:
+  - "10001:10001"
+  restart: always
+  log_driver: "syslog"
+  log_opt:
+    syslog-address: "udp://10.42.182.36:5000"
+    syslog-tag: "dockertest"
+  tty: true
+  stdin_open: true

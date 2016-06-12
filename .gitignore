@@ -1,0 +1,10 @@
+/vendor/*
+composer.lock
+/.idea/*
+cache.properties
+phploc.csv
+pmd-cpd.xml
+pmd.xml
+junit.xml
+node_modules
+mocha.json
